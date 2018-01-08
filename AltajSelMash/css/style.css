@@ -1,0 +1,284 @@
+img {
+	max-width: 100%;
+}
+
+h2 {
+	color: #000;
+}
+/* Самое верхнее меню */
+
+.main-header-top {
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	font-weight: 400;
+	}
+
+.main-header-top-bg {
+	 font-size: 136px; 
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -65%;
+	color: #cccccc;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.wrapper {
+	position: relative;
+	background-color: #ddd;
+	overflow: hidden;
+}
+.container {
+	width: 1170px;
+}
+
+/* Small logo */
+.small-logo-link img {
+	transition: all .5s;
+}
+
+.small-logo-link img:hover {
+	opacity: .7;
+}
+
+/* Меню с пунктами */
+
+.header-menu {
+		margin-top: 25px;
+}
+.header-items {
+	margin-top: 20px;
+}
+
+.header-items li {
+	display: inline-block;
+}
+
+.header-items li a {
+	height: 60px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	margin-right: 27px;
+	background: url(../img/kolos.png) center 300px no-repeat;
+	transition: all .5s;
+}
+
+.header-items li a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+.header-items li a:hover {
+	color: #e34024;
+	background: url(../img/kolos.png) center bottom no-repeat;
+} 
+
+
+/* header-button */
+button {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 20px 30px;
+	border: none;
+	background-color: #e34024;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	border-bottom: 3px solid #e34024;
+	transition: all .5s;
+	}
+
+button:hover {
+	border-bottom: 3px solid #9d2d1a;
+	opacity: .9;
+}
+/* инфо блок */
+.big-logo {
+	margin-top: 50px;
+}
+
+.big-logo-link img {
+	display: block;
+	transition: all .5s;
+} 
+
+.big-logo-link img:hover {
+	opacity: 0.7;
+} 
+
+
+/*  О нас */
+.about-us-block {
+	margin-top: 50px;
+}
+
+.svg-group, .svg-harvester, .svg-care {
+	height: 80px;
+	width: 80px;
+}
+
+.about-us-logo-wrapper:hover svg g {
+	fill: #e34024;
+} 
+
+ 
+
+.title-about-us {
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 30px;
+}
+
+.title-about-us::before {
+	position: absolute;
+	top: -20px;
+	left: 0;
+	content:"";
+	background-color:  #e34024;
+	width: 83px;
+	height: 5px;
+}
+
+.about-us-logo-wrapper a span {
+	display: block;
+}
+
+.about-us-logo-wrapper a {
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.about-us-logo-wrapper {
+	display: inline-block;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.08);
+	padding-top: 45px;
+	padding-bottom: 40px;
+	transition: all .5s;
+}
+
+.about-us-logo-wrapper:hover {
+	box-shadow: 0px 0px 9px 1px rgba(227, 64, 36, 0.25);
+	opacity: .7;
+}
+.about-us-logo {
+
+	margin-bottom: 20px;
+	height: 56px;
+}
+
+/* Блок с дилерами */
+.dealer-block {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.dealer-block-title {
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 30px;
+}
+.dealer-block-title::before {
+	position: absolute;
+	top: -20px;
+	left: 0;
+	content:"";
+	background-color:  #e34024;
+	width: 83px;
+	height: 5px;
+}
+
+.dealer-link a {
+	display: block;
+	background-color: #f4f4f4;
+	height: 120px;
+	width: 275px;
+	line-height: 120px;
+	vertical-align: middle;
+	text-align: center;
+	margin-bottom: 20px;
+	transition: all .5s;
+}
+
+.dealer-link a:hover {
+	box-shadow: 0px 0px 9px 1px rgba(227, 64, 36, 0.25);
+	opacity: .7;
+
+} 
+
+.dealer-link a img {
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+}
+
+.dealer-span {
+	display: block;
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+}
+
+.row-mg-btn {
+	margin-bottom: 3px;
+}
+
+/* FOOTER */
+.footer-wrapper {
+	background-color: #ddd;
+	padding-top: 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+.footer-text-bg {
+	font-size: 136px; 
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 15%;
+	color: #cccccc;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+
+	.phone-footer a, .email-footer a {
+		color: #000;
+		text-transform: uppercase;
+	}
+
+
+	.phone-footer a, .email-footer a:hover {
+		text-decoration: none;
+	}
+
+	.develop-link {
+		color: #e34024;
+	
+	}
+
+	.develop-link:hover {
+		text-decoration: none;
+		color: #000;
+	}
+
+.developed {
+	text-align: right;
+}
+
+	.container-footer {
+		padding-bottom: 15px;
+	}
