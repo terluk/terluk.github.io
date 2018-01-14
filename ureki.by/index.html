@@ -1,0 +1,1047 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>ureki.by</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+    <script src="https://use.fontawesome.com/28b503eab4.js"></script>
+  </head>
+
+  <body>
+
+ 
+ <div class="header-wrapper clearfix">
+   <div class="container">
+     <div class="row">
+       <div class="header-top">
+         <div class="col-lg-offset-6 col-lg-2">
+           <div class="header-btn">
+             <button class="register-btn">
+               <i class="fa fa-user-o" aria-hidden="true"></i>
+               Зарегистрироваться
+             </button>
+           </div>
+         </div>
+         <div class="col-lg-2">
+           <button class="signin-btn">
+             <i class="fa fa-sign-in" aria-hidden="true"></i>
+             Войти в аккаунт
+           </button>
+         </div>
+         <div class="col-lg-2">
+          <div class="header-ru-en">
+             <button class="header-ru-btn">ru</button>
+         <button class="header-en-btn">en</button>
+          </div>  
+
+       </div>
+       </div>
+     </div>
+   </div>
+    <div class="container">
+         <div class="row">
+
+          <!--HEADER BOTTOM-->
+
+            <div class="header-bottom">
+              <div class="col-lg-2">
+                <div class="header-logo">
+                 <a href="#">
+                   <img src="img/logo1.png" alt="logo">
+                 </a>
+               </div>
+             </div>
+           <div class="col-lg-7">
+             <div class="header-nav">
+               <ul>
+                 <li><a href="#">главная</a></li>
+                 <li><a href="#">Санатории</a></li>
+                 <li><a href="#">Базы отдыха</a></li>
+                 <li><a href="#">Агроусадьбы</a></li>
+                 <li><a href="#">География</a></li>
+               </ul>
+             </div>
+           </div>
+       <div class="col-lg-2">
+         <button class="botton-header-register-btn">Зарегистрировать объект</button>
+       </div>
+     </div>
+   </div>
+    </div>
+ </div>
+
+ <!--==========MAIN===========-->
+
+  <div class="main-wrapper">
+    <div class="main-bg">
+      <img src="img/header-bg.jpg" alt="main-bg">
+      <h2 class="main-header">санатории прекрасной Беларуси предлагают <br>комфортные условия и для отдыха и лечения
+      </h2>
+    </div>
+  </div>
+
+<div class="container relative_z_index">
+  <div class="lg-block-wrapper">
+    <div class="info-block">
+    <div class="search-block clearfix">
+        <div class="search-form">
+          <form action="#">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" placeholder="Город или название">
+          </form>
+        </div>
+    <div class="radius">
+      <span>Радиус<br>(км)</span>
+         <input type="range" min="10" max="200" step="50" value="10" list="rangeList1">
+          <datalist id="rangeList1">
+          <option value="10" label="10">
+          <option value="50" label="50">
+          <option value="100" label="100">
+          <option value="150" label="150">
+          <option value="200" label="200">
+          </datalist>
+    </div> 
+  </div>
+</div>
+
+    <div class="container">
+      <div class="checkbox-block-wrapper">
+        <div class="checkbox-block clearfix">
+        <form class="custom-checkbox" action="#">
+          <input class="custom-checkbox1" type="checkbox"><span class="checkbox-text">Базы отдыха</span>
+          <input class="custom-checkbox1" type="checkbox"><span class="checkbox-text">Агроусадьбы</span>
+          <input class="custom-checkbox1" type="checkbox"><span class="checkbox-text">Санатории</span>
+
+          <span class="select-rating-text">Рейтинг</span>
+          <select class="select-checkbox" name="rating" id="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </form>
+      </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sort-block-wrapper">
+        <div class="sort-block">
+        <form action="#">
+          
+          <button>
+            <img src="img/alphabet-sort.png" alt="abc-sort">
+            <span>Сортировать по алфавиту</span>
+          </button>
+          
+          <button>
+            <img src="img/rating.png" alt="rating">
+            <span>Сортировать по рейтингу</span>
+          </button>
+
+          <button>
+            <img src="img/distance.png" alt="distance-sort">
+            <span>Сортировать по растоянию</span>
+          </button>
+        </form>
+      </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="bases-block-wrapper">
+              <div class="bases-block clearfix">
+                 <a href="#">
+                    <div class="base">
+                      <div class="distance-img">
+                        <span>36 км</span>
+                      </div>
+                    <div class="img-footer">
+                      <div class="img-header">
+                        <div class="img-header-top">
+                        <h2>Пикник Парк</h2>
+                      </div>
+                      <div class="img-header-bottom">
+                        <h3>Витебская область</h3>
+                      </div>
+                         <div class="rate-stars">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/picknic-park.jpg" alt="Пикник Парк">
+                     </div>                
+                  </a>
+
+                <a href="#">
+                    <div class="base">
+                      <div class="distance-img">
+                        <span>36 км</span>
+                      </div>
+                    <div class="img-footer">
+                      <div class="img-header">
+                        <div class="img-header-top">
+                        <h2>Озерная</h2>
+                      </div>
+                      <div class="img-header-bottom">
+                        <h3>Витебская область</h3>
+                      </div>
+                         <div class="rate-stars">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/ozernaya.jpg" alt="Пикник Парк">
+                     </div>                
+                  </a>
+
+                  <a href="#">
+                    <div class="base">
+                      <div class="distance-img">
+                        <span>36 км</span>
+                      </div>
+                    <div class="img-footer">
+                      <div class="img-header">
+                        <div class="img-header-top">
+                        <h2>Ратомка</h2>
+                      </div>
+                      <div class="img-header-bottom">
+                        <h3>Витебская область</h3>
+                      </div>
+                         <div class="rate-stars">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/ratomka.jpg" alt="Пикник Парк">
+                     </div>                
+                  </a>
+
+                  <a href="#">
+                    <div class="base">
+                      <div class="distance-img">
+                        <span>36 км</span>
+                      </div>
+                    <div class="img-footer">
+                      <div class="img-header">
+                        <div class="img-header-top">
+                        <h2>Пикник Парк</h2>
+                      </div>
+                      <div class="img-header-bottom">
+                        <h3>Витебская область</h3>
+                      </div>
+                         <div class="rate-stars">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/picknic-park.jpg" alt="Пикник Парк">
+                     </div>                
+                  </a>
+
+                <a href="#">
+                    <div class="base">
+                      <div class="distance-img">
+                        <span>36 км</span>
+                      </div>
+                    <div class="img-footer">
+                      <div class="img-header">
+                        <div class="img-header-top">
+                        <h2>Озерная</h2>
+                      </div>
+                      <div class="img-header-bottom">
+                        <h3>Витебская область</h3>
+                      </div>
+                         <div class="rate-stars">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/ozernaya.jpg" alt="Пикник Парк">
+                     </div>                
+                  </a>
+
+                  <a href="#">
+                    <div class="base">
+                      <div class="distance-img">
+                        <span>36 км</span>
+                      </div>
+                    <div class="img-footer">
+                      <div class="img-header">
+                        <div class="img-header-top">
+                        <h2>Ратомка</h2>
+                      </div>
+                      <div class="img-header-bottom">
+                        <h3>Витебская область</h3>
+                      </div>
+                         <div class="rate-stars">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/ratomka.jpg" alt="Пикник Парк">
+                     </div>                
+                  </a>
+
+                  <a href="#">
+                    <div class="base">
+                      <div class="distance-img">
+                        <span>36 км</span>
+                      </div>
+                    <div class="img-footer">
+                      <div class="img-header">
+                        <div class="img-header-top">
+                        <h2>Пикник Парк</h2>
+                      </div>
+                      <div class="img-header-bottom">
+                        <h3>Витебская область</h3>
+                      </div>
+                         <div class="rate-stars">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/picknic-park.jpg" alt="Пикник Парк">
+                     </div>                
+                  </a>
+
+                <a href="#">
+                    <div class="base">
+                      <div class="distance-img">
+                        <span>36 км</span>
+                      </div>
+                    <div class="img-footer">
+                      <div class="img-header">
+                        <div class="img-header-top">
+                        <h2>Озерная</h2>
+                      </div>
+                      <div class="img-header-bottom">
+                        <h3>Витебская область</h3>
+                      </div>
+                         <div class="rate-stars">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/ozernaya.jpg" alt="Пикник Парк">
+                     </div>                
+                  </a>
+
+                  <a href="#">
+                    <div class="base">
+                      <div class="distance-img">
+                        <span>36 км</span>
+                      </div>
+                    <div class="img-footer">
+                      <div class="img-header">
+                        <div class="img-header-top">
+                        <h2>Ратомка</h2>
+                      </div>
+                      <div class="img-header-bottom">
+                        <h3>Витебская область</h3>
+                      </div>
+                         <div class="rate-stars">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/ratomka.jpg" alt="Пикник Парк">
+                     </div>                
+                  </a>
+            </div>
+            <button class="base-btn">
+                  <span>Показать еще</span>
+                </button>
+        </div>
+      </div>
+</div>
+</div>    
+  
+  <div class="container">
+      <div class="recomended">
+        <div class="recomended-header">
+          <div class="inline_block_wrap">
+            <img src="img/hostel.png" alt="Hostel">
+            <h2 class="recomended-title">Рекомендуем базы отдыха</h2>
+          </div>
+        </div>
+
+        <div class="recomend-bases clearfix">
+        <div class="container">
+       <div class="carousel_bases owl-carousel owl-loaded owl-drag owl-theme">
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Пикник Парк</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Озерная</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Ратомка</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Пикник Парк</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Озерная</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Ратомка</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+      </div>
+       </div>
+        </div>
+
+        <button class="recomend-btn">Показать все</button>
+      </div>
+    </div>  
+
+
+  <div class="agrohouse">
+    <div class="container">
+      <div class="recomended">
+        <div class="recomended-header">
+          <div class="inline_block_wrap">
+            <img src="img/windmill.png" alt="Hostel">
+            <h2 class="recomended-title">Рекомендуем агроусадьбы</h2>
+          </div>
+        </div>
+
+        <div class="recomend-bases clearfix">
+        <div class="container">
+       <div class="carousel_bases owl-carousel owl-loaded owl-drag owl-theme">
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Пикник Парк</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Озерная</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Ратомка</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Пикник Парк</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Озерная</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Ратомка</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+      </div>
+       </div>
+        </div>
+
+        <button class="recomend-btn">Показать все</button>
+      </div>
+  </div> 
+  </div> 
+
+  <div class="container">
+      <div class="recomended">
+        <div class="recomended-header">
+          <div class="inline_block_wrap">
+            <img src="img/shelter.png" alt="Hostel">
+            <h2 class="recomended-title">Рекомендуем санатории</h2>
+          </div>
+        </div>
+
+        <div class="recomend-bases clearfix">
+        <div class="container">
+       <div class="carousel_bases owl-carousel owl-loaded owl-drag owl-theme">
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Пикник Парк</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Озерная</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Ратомка</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Пикник Парк</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Озерная</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+        <a href="#">
+          <div class="base-carousel">
+            <div class="distance-img">
+              <span>36 км</span>
+            </div>
+          <div class="img-footer">
+            <div class="img-header">
+              <div class="img-header-top">
+              <h2>Ратомка</h2>
+            </div>
+            <div class="img-header-bottom">
+              <h3>Витебская область</h3>
+            </div>
+               <div class="rate-stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+            <div class="base_img">
+              <img src="img/picknic-park.jpg" alt="Пикник Парк">
+            </div>
+           </div>                
+        </a>
+      </div>
+       </div>
+        </div>
+
+        <button class="recomend-btn">Показать все</button>
+      </div>
+    </div>
+
+<!-- =====FOOTER===== -->
+
+  <div class="footer-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="about-us-footer">
+            <h3 class="footer-title">О проекте</h3>
+            <p>Данный проект создан с целью продвижения туристических услуг Республики Беларусь. Для достижения этой цели используется универсальный инструмент - Интернет, в котором, посредством нашего каталога туристических услуг, в удобном, структурированном и приятном глазу виде представлена необходимая информации о санаториях, базах отдыха и агроусадьбах Беларуси.</p>
+        </div>
+          </div>
+        <div class="col-lg-2">
+          <div class="footer-nav">
+            <h3 class="footer-title">Меню</h3>
+            <ul>
+                 <li><a href="#">Главная</a></li>
+                 <li><a href="#">Санатории</a></li>
+                 <li><a href="#">Базы отдыха</a></li>
+                 <li><a href="#">Агроусадьбы</a></li>
+                 <li><a href="#">География</a></li>
+               </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="footer-title">Подписаться на рассылку</h3>
+          <div class="footer-form">
+            <form action="#">
+              <input class="footer-textinput" type="text" placeholder="введите свой email">
+              <button class="footer-btn">Подписаться</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-email">
+            <h3 class="footer-title">Сотрудничество</h3>
+            <a href="mailto:info@ureki.com">info@ureki.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="footer-second-wrapper">
+          <div class="col-lg-3">
+            <span class="copyright">&copy;2017 <a href="#">ureki.</a>Все права защищены.</span>
+          </div>
+          <div class="col-lg-offset-7 col-lg-2">
+            <div class="footer-social">
+              <i class="fa fa-facebook social-item" aria-hidden="true"></i>
+              <i class="fa fa-google-plus social-item" aria-hidden="true"></i>
+              <i class="fa fa-twitter social-item" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+       $(".carousel_bases").owlCarousel({
+          dots : false,
+          nav : true,
+          loop : true,
+       });
+      });
+    </script>
+  </body>
+</html>
