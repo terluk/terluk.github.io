@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
@@ -27,14 +28,21 @@
     <script src="https://use.fontawesome.com/28b503eab4.js"></script>
   </head>
 
-  <body>
+<body>
 
  
  <div class="header-wrapper clearfix">
-   <div class="container">
+   <div class="container container_with_logo">
      <div class="row">
        <div class="header-top">
-         <div class="col-lg-offset-6 col-lg-2">
+        <div class="col-lg-2 col-md-2 col-sm-1 logo_wrapper">
+                <div class="header-logo">
+                 <a href="#">
+                   <img src="img/logo1.png" alt="logo">
+                 </a>
+               </div>
+         </div>
+         <div class="col-lg-offset-4 col-lg-2 col-md-offset-1 col-md-3 col-sm-4">
            <div class="header-btn">
              <button class="register-btn">
                <i class="fa fa-user-o" aria-hidden="true"></i>
@@ -42,13 +50,13 @@
              </button>
            </div>
          </div>
-         <div class="col-lg-2">
+         <div class="col-lg-2 col-md-3 col-sm-4">
            <button class="signin-btn">
              <i class="fa fa-sign-in" aria-hidden="true"></i>
              Войти в аккаунт
            </button>
          </div>
-         <div class="col-lg-2">
+         <div class="col-lg-2 col-sm-3">
           <div class="header-ru-en">
              <button class="header-ru-btn">ru</button>
          <button class="header-en-btn">en</button>
@@ -63,15 +71,8 @@
 
           <!--HEADER BOTTOM-->
 
-            <div class="header-bottom">
-              <div class="col-lg-2">
-                <div class="header-logo">
-                 <a href="#">
-                   <img src="img/logo1.png" alt="logo">
-                 </a>
-               </div>
-             </div>
-           <div class="col-lg-7">
+        <div class="header-bottom">
+          <div class="col-lg-7 col-lg-offset-2 col-md-10">
              <div class="header-nav">
                <ul>
                  <li><a href="#">главная</a></li>
@@ -81,9 +82,14 @@
                  <li><a href="#">География</a></li>
                </ul>
              </div>
-           </div>
-       <div class="col-lg-2">
+         </div>
+       <div class="zareg-btn-wrapper">
          <button class="botton-header-register-btn">Зарегистрировать объект</button>
+       </div>
+       <div class="mobile-menu">
+         <span class="line-1"></span>
+         <span class="line-2"></span>
+         <span class="line-3"></span>
        </div>
      </div>
    </div>
@@ -128,23 +134,25 @@
       <div class="checkbox-block-wrapper">
         <div class="checkbox-block clearfix">
         <form class="custom-checkbox" action="#">
-          <input class="custom-checkbox1" type="checkbox"><span class="checkbox-text">Базы отдыха</span>
-          <input class="custom-checkbox1" type="checkbox"><span class="checkbox-text">Агроусадьбы</span>
-          <input class="custom-checkbox1" type="checkbox"><span class="checkbox-text">Санатории</span>
+          <div class="input_row"><input class="custom-checkbox1" type="checkbox"><span class="checkbox-text">Базы отдыха</span></div>
+          <div class="input_row"><input class="custom-checkbox1" type="checkbox"><span class="checkbox-text">Агроусадьбы</span></div>
+          <div class="input_row"><input class="custom-checkbox1" type="checkbox"><span class="checkbox-text">Санатории</span></div>
 
-          <span class="select-rating-text">Рейтинг</span>
-          <select class="select-checkbox" name="rating" id="rating">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-          </select>
+          <div class="input_row">
+            <span class="select-rating-text">Рейтинг</span>
+            <select class="select-checkbox" name="rating" id="rating">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
         </form>
       </div>
       </div>
@@ -979,7 +987,7 @@
             <p>Данный проект создан с целью продвижения туристических услуг Республики Беларусь. Для достижения этой цели используется универсальный инструмент - Интернет, в котором, посредством нашего каталога туристических услуг, в удобном, структурированном и приятном глазу виде представлена необходимая информации о санаториях, базах отдыха и агроусадьбах Беларуси.</p>
         </div>
           </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-6">
           <div class="footer-nav">
             <h3 class="footer-title">Меню</h3>
             <ul>
@@ -991,7 +999,7 @@
                </ul>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <h3 class="footer-title">Подписаться на рассылку</h3>
           <div class="footer-form">
             <form action="#">
@@ -1000,29 +1008,51 @@
             </form>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-6">
           <div class="footer-email">
             <h3 class="footer-title">Сотрудничество</h3>
             <a href="mailto:info@ureki.com">info@ureki.com</a>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="footer-second-wrapper">
-          <div class="col-lg-3">
-            <span class="copyright">&copy;2017 <a href="#">ureki.</a>Все права защищены.</span>
+      <div class="footer-second-wrapper">
+        <div class="row">        
+          <div class="col-lg-3 col-md-4 col-sm-4">
+            <div>
+              <span class="copyright">&copy;2017 <a href="#">ureki.</a>Все права защищены.</span>
+            </div>
           </div>
-          <div class="col-lg-offset-7 col-lg-2">
+          <div class="col-lg-offset-7 col-lg-2 col-md-offset-5 col-md-3">
             <div class="footer-social">
               <i class="fa fa-facebook social-item" aria-hidden="true"></i>
               <i class="fa fa-google-plus social-item" aria-hidden="true"></i>
               <i class="fa fa-twitter social-item" aria-hidden="true"></i>
             </div>
           </div>
-        </div>
-      </div>
+        </div> <!--wrap-->
+      </div> <!--row-->
     </div>
   </div>
+
+<!--   <div class="tabs_wrapper">
+    <input type="radio" name="tabs" class="tab_1 tab_title" id="tab_1" checked>
+    <label for="tab_1">Tab 1</label>
+    <input type="radio" name="tabs" class="tab_2 tab_title" id="tab_2">
+    <label for="tab_2">Tab 2</label>
+    <input type="radio" name="tabs" class="tab_3 tab_title" id="tab_3">
+    <label for="tab_3">Tab 3</label>
+    <input type="radio" name="tabs" class="tab_4 tab_title" id="tab_4">
+    <label for="tab_4">Tab 4</label>
+    <input type="radio" name="tabs" class="tab_5 tab_title" id="tab_5">
+    <label for="tab_5">Tab 5</label>
+    <div class="tabs_content_wrapper">
+      <div class="tab_content_1 tab_content">Content 1</div>
+      <div class="tab_content_2 tab_content">Content 2</div>
+      <div class="tab_content_3 tab_content">Content 3</div>
+      <div class="tab_content_4 tab_content">Content 4</div>
+      <div class="tab_content_5 tab_content">Content 5</div>
+    </div>
+  </div> -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -1031,6 +1061,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/main.js"></script>
     <!-- OWL CAROUSEL -->
     <script src="owlcarousel/jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
@@ -1040,6 +1071,17 @@
           dots : false,
           nav : true,
           loop : true,
+         responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+      }
        });
       });
     </script>
