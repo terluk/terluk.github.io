@@ -255,15 +255,17 @@
     }
 }
 @media screen and (max-width: 768px){
-    .footer-wrap{
-        padding-top: 30px;
+    
+    .footer-wrap {
+         padding-left: 15px;
     }
     .footer-logo{
         width: 60%;
     }
-    .footer-wrap{
-        padding-left: 15px;
+    .footer-logo img{
+        width: 60%;
     }
+    
     .item-img-date{
         top: 208px;
     }
@@ -349,4 +351,8 @@
    .news-wrap{
     padding-top: 50px;
    }
+   .footer-wrap{
+        padding-top: 30px;
+        padding-left: 15px;
+    }
 }
