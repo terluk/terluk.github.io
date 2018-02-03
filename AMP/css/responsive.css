@@ -255,6 +255,15 @@
     }
 }
 @media screen and (max-width: 768px){
+    .footer-wrap{
+        padding-top: 30px;
+    }
+    .footer-logo{
+        width: 60%;
+    }
+    .footer-wrap{
+        padding-left: 15px;
+    }
     .item-img-date{
         top: 208px;
     }
