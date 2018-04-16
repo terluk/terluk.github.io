@@ -28,6 +28,9 @@
 	.news_item{
 		width: 50%;
 	}
+	.footer_menu_wrap{
+		width: 51%;
+	}
 }
 @media screen and (max-width: 1500px){
 	.add_company_wrap{
@@ -81,6 +84,9 @@
 	}
 	.footer_menu_wrap{
 		width: 44%;
+	}
+	.footer_menu_wrap{
+		width: 51%;
 	}
 }
 @media screen and (max-width: 1080px){

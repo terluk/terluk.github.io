@@ -541,4 +541,11 @@ footer{
 .footer_menu_wrap ul li a:hover{
 	opacity: .5;
 }
+.pd_news_item {
+		width: 50%;
+		float: left;
+}
+.news_item{
+		width: 50%;
+}
 
