@@ -3,7 +3,7 @@
 		font-size: 18px;
 	}
 	.add_company_btn{
-		font-size: 30px;
+		font-size: 26px;
 		padding-right: 100px;
 	}
 	.add_company_btn > span{
@@ -88,6 +88,20 @@
 	.footer_menu_wrap{
 		width: 51%;
 	}
+	.search_region{
+		width: 31%;
+	}
+	.suits, .restaurants, .cakes{
+		min-height: auto;
+	}
+	.firework{
+		min-height: 606px;
+	}
+}
+@media screen and (max-width: 1220px){
+	.firework{
+		min-height: 605px;
+	}
 }
 @media screen and (max-width: 1080px){
 	.search_region{
@@ -118,9 +132,15 @@
 	.solution_item{
 		padding: 30px 10px 10px 30px;
 	}
+	.search_region{
+		width: 31%;
+	}
+	.firework{
+		min-height: 603px;
+	}
 }
 @media screen and (max-width: 991px){
-	 .mobile-menu{
+	.mobile-menu{
         position: fixed;
         z-index: 999;
         top: 121px;
@@ -290,7 +310,38 @@
     .search_region{
     	margin-bottom: 20px;
     }
-    @media screen and (max-width: 530px){
+    .mobile_menu_up .mobile-menu{
+		top: 25px;
+	}
+	.firework{
+		width: 100%;
+	}
+	.foto_makers, .video_makers, .weddins_acessories, .farm{
+		width: 50%;
+	}
+	.catalog_item{
+		width: 49.5%;
+	}
+	.cakes{
+		min-height: 400px;
+	}
+	.keytering{
+		width: 99.7%;
+	}
+	.weddins_acessories span, .restaurants span{
+		left: 40%;
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 620px){
+	.catalog_item{
+		width: 100%;
+	}
+	.weddings_dress span, .weddins_acessories span, .restaurants span{
+		left: 50%;
+	}
+}
+@media screen and (max-width: 530px){
     	.play_day_wrap{
     		margin-bottom: 5px;
     	}
@@ -337,5 +388,28 @@
     	footer{
     		padding-left: 17px;
     	}
-    }
+    	.pd_news_title{
+    		margin-top: 35px;
+    		margin-bottom: 15px;
+    	}
+    	.mobile_menu_up .mobile-menu{
+    		top: 25px;
+    	}
+    	.news_item{
+    		padding: 20px;
+    		text-align: center;
+    	}
+    	.solution_item{
+    		min-height: auto;
+    	}
+    	.solution_item_title{
+    		padding-bottom: 60px;
+    	}
+    	.news_item{
+    		min-height: auto;
+    	}
+    	.fire_fly, .discount_progr, .mothers_day{
+    		min-height: 300px;
+    	}
+
 }
