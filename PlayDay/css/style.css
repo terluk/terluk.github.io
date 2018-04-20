@@ -574,11 +574,12 @@ footer{
 	transform: scale(1);
 	min-height: 300px;
 }
-.catalog_item:hover{
+/*.catalog_item:hover{
 	opacity: .5;
-}
+}*/
 .catalog_item:hover img{
 	transform: scale(1.1);
+	filter: saturate(30%);
 }
 .catalog_item span{
 	color: #fff;
