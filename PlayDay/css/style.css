@@ -579,7 +579,7 @@ footer{
 }*/
 .catalog_item:hover img{
 	transform: scale(1.1);
-	filter: saturate(30%);
+	filter: brightness(70%);
 }
 .catalog_item span{
 	color: #fff;
