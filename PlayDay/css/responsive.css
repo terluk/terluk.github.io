@@ -31,8 +31,27 @@
 	.footer_menu_wrap{
 		width: 51%;
 	}
+	.pd_card_info_form_location{
+		width: 30%;
+	}
+	.pd_card_info_form_right{
+		width: 70%;
+	}
+	.pd_card_info_form_btns{
+		text-align: center;
+	}
+	.basket_shop{
+		left: 8%;
+	}
 }
 @media screen and (max-width: 1500px){
+	.pd_card_info_form_btns a{
+		font-size: 26px;
+	}
+	.pd_card_info_form_btns a:first-child{
+		height: 80px;
+		line-height: 80px;
+	}
 	.add_company_wrap{
 		width: 22.5%;
 	}
@@ -86,7 +105,7 @@
 		width: 44%;
 	}
 	.footer_menu_wrap{
-		width: 51%;
+		width: 63%;
 	}
 	.search_region{
 		width: 31%;
@@ -97,10 +116,98 @@
 	.firework{
 		min-height: 606px;
 	}
+	.weddins_acessories span{
+		left: 36%;
+		font-size: 26px;
+	}
+	.pd_card_info_form_question{
+		padding-left: 25px;
+	}
+	.ava_rating_stars{
+		width: 63%;
+	}
+	.pd_slider_wrap{
+		margin-top: 60px;
+	}
+	.pd_slider_title h2{
+		margin-bottom: 70px;
+	}
+}
+@media screen and (max-width: 1355px){
+	.pd_card_info_form_btns a{
+		font-size: 26px;
+	}
+	.pd_card_info_form_btns a:first-child{
+		height: 80px;
+		line-height: 80px;
+	}
+	.pd_card_info_form_location{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.pd_card_info_form_right{
+		width: 100%;
+	}
+	.pd_card_info_form_question{
+		padding-left: 0;
+		border-left: 0;
+	}
+	.pd_card_info_form_btns a{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.ava_rating_stars{
+		width: 62%;
+	}
+	.pd_card_info{
+		padding-left: 10px;
+	}
+	.pd_card_info_tags_foto{
+		display: block;
+		margin-bottom: 30px;
+	}
+	.pd_slider_title h2{
+		margin-bottom: 30px;
+		margin-top: 50px;
+		font-size: 80px;
+	}
+	.ava_rating_stars{
+		width: 60%;
+	}
+	.pd_slider_title h2:before{
+		bottom: -5px;
+	}
+	html body .owl-carousel .owl-item img{
+		height: 400px;
+	}
+	.owl-next, .owl-prev{
+		height: 100px;
+		width: 100px;
+	}
 }
 @media screen and (max-width: 1220px){
 	.firework{
 		min-height: 605px;
+	}
+	.ava_rating_stars{
+		width: 59%;
+	}
+	.pd_card_ava_wrap{
+		width: 100%;
+		/*padding-left: 30px;*/
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.card_ava_logo{
+		right: 29%;
+	}
+	.pd_ava_rating {
+		width: 48%;
+		margin: 0 auto;
+	}
+	.pd_card_info{
+		float: none;
+		margin: 0 auto;
 	}
 }
 @media screen and (max-width: 1080px){
@@ -138,8 +245,42 @@
 	.firework{
 		min-height: 603px;
 	}
+	.ava_rating_stars{
+		width: 67%;
+	}
 }
 @media screen and (max-width: 991px){
+	.pd_ava_rating{
+		width: 60%;
+	}
+	.pd_card_info_tags_wrap a{
+		display: block;
+		margin-bottom: 10px;
+	}
+	html body .pd_counter{
+		display: inline-block;
+	}
+	.pd_card_info_tags_foto{
+		margin-bottom: 0;
+	}
+	.pd_card_info_form_question, .pd_card_info_form_btns{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.pd_card_info_form_location{
+		text-align: center;
+	}
+	.pd_slider_title h2{
+		margin-top: 0;
+		font-size: 60px;
+	}
+	.pd_slider_title h2:before{
+		height: 5px;
+	}
+	html body .owl-carousel .owl-item img{
+		height: 300px;
+	}
 	.mobile-menu{
         position: fixed;
         z-index: 999;
@@ -332,14 +473,75 @@
 		left: 40%;
 		font-size: 24px;
 	}
+	.pd_card_info_title h2{
+		font-size: 40px;
+	}
+	.pd_card_info_discription p{
+		padding-left: 0;
+		font-size: 22px;
+	}
+	.pd_card_info_tags_wrap{
+		padding-left: 0;
+	}
+	footer{
+		margin-top: -80px;
+	}
+}
+@media screen and (max-width: 710px){
+	.pd_ava_rating{
+		width: 80%;
+	}
+	.pd_ava_img{
+		max-height: 360px;
+	}
+	footer{
+		margin-top: -80px;
+	}
 }
 @media screen and (max-width: 620px){
+	.basket_shop{
+		display: none;
+	}
+	.pd_card_info_form_btns a{
+		padding: 0 10px 0 10px;
+	}
+	.pd_card_info_form_btns a:first-child{
+		height: 50px;
+		line-height: 50px;
+	}
 	.catalog_item{
 		width: 100%;
 	}
 	.weddings_dress span, .weddins_acessories span, .restaurants span{
 		left: 50%;
 	}
+	.owl-next, .owl-prev{
+		display: none;
+	}
+	.ava_rating_stars{
+		width: 46%;
+	}
+	.ava_rating_btn{
+		width: 54%;
+	}
+	.pd_card_info_discription p{
+		padding-left: 0;
+	}
+	.pd_card_info_title h2{
+		font-size: 46px;
+	}
+	.pd_card_info_title h2:before{
+		height: 5px;
+	}
+	.pd_card_info{
+		width: 100%;
+		padding-left: 20px;
+	}
+	footer{
+			padding-top: 25px;
+			padding-bottom: 25px;
+			margin-top: -80px;
+		}
 }
 @media screen and (max-width: 530px){
     	.play_day_wrap{
@@ -411,5 +613,61 @@
     	.fire_fly, .discount_progr, .mothers_day{
     		min-height: 300px;
     	}
-
+		html body .foreign_weddings span{
+			font-size: 28px;
+		}
+		.pd_ava_rating{
+			width: 100%;
+		}
+		.bread_crumbs_wrap{
+		    margin-top: 20px;
+    		padding-bottom: 0px;
+		}
+		.card_ava_logo{
+			width: 235px;
+			height: 30px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		.ava_rating_stars i{
+			font-size: 18px;
+		}
+		.ava_rating_btn span{
+			font-size: 26px;
+			height: 56px;
+    		line-height: 28px;
+		}
+		.pd_card_info_title h2{
+			font-size: 30px;
+		}
+		.pd_card_info_title{
+			padding-left: 0;
+			margin-bottom: 30px; 	
+		}
+		.pd_card_info_title h2:before{
+			bottom: -10px;
+		}
+		.pd_card_info_form{
+			padding: 10px;
+		}
+		.pd_card_info_form_btns a{
+			font-size: 20px;
+		}
+		.pd_card_info_form_btns a:first-child{
+			margin-bottom: 15px;
+		}
+		.pd_slider_wrap{
+			margin-top: 20px;
+		}
+		.pd_slider_title h2{
+			font-size: 30px;
+		}
+		.owl-carousel .owl-dots{
+			bottom: -35px;
+		}
+		footer{
+			padding-top: 25px;
+			padding-bottom: 25px;
+			margin-top: -80px;
+		}
 }
