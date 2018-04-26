@@ -933,4 +933,7 @@
 		.footer_menu_wrap ul li a{
 			font-size: 26px;
 		}
+		.filter_left_menu ul li a{
+			white-space: nowrap;
+		}
 }
