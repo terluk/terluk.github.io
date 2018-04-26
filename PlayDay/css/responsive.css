@@ -702,6 +702,10 @@
 	}
 }
 @media screen and (max-width: 620px){
+	.weddins_acessories span{
+			left: 44%;
+    		width: 77%;
+		}
 	html body .pd_carousel.owl-carousel .owl-item img{
 		height: 300px;
 	}
@@ -1008,10 +1012,10 @@
 			padding-right: 15px;
 		}
 		.foto_maker_line_bottom span{
-			font-size: 18px;
+			font-size: 16px;
 		}
 		.foto_maker_line_bottom a > span{
-			font-size: 16px;
+			font-size: 14px;
 		}
 		.foto_maker_line_bottom a > i{
 			display: none;
@@ -1019,5 +1023,9 @@
 		.filter_feedback_wrap{
 			margin-left: 5px;
 			margin-right: 5px;
+		}
+		.weddins_acessories span{
+			left: 44%;
+    		width: 77%;
 		}
 }
