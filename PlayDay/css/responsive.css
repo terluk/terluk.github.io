@@ -734,6 +734,13 @@
 	}
 }
 @media screen and (max-width: 530px){
+		.filter_left_menu ul li{
+			height: auto;
+			line-height: 1;
+		}
+		.filter_left_menu ul li a{
+			padding: 10px 15px;
+		}
     	.play_day_wrap{
     		margin-bottom: 5px;
     	}
@@ -932,8 +939,5 @@
 		}
 		.footer_menu_wrap ul li a{
 			font-size: 26px;
-		}
-		.filter_left_menu ul li a{
-			white-space: nowrap;
 		}
 }
