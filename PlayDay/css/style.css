@@ -104,7 +104,7 @@ font-family: 'Arial Narrow', arial;
 	background-color: #4a70c0;
 }
 .header_menu ul li a{
-	font-size: 24px;
+	font-size: 22px;
 	color: #fff;
 	font-style: italic;
 	text-transform: uppercase;
@@ -251,7 +251,7 @@ font-family: 'Arial Narrow', arial;
 	margin-left: 25px;
 }
 .pd_basket a{
-	font-size: 44px;
+	font-size: 36px;
 	background-color: #ffd234;
 	color: #000;
 	font-family: 'Bebas_Neu_Bold';
@@ -848,7 +848,7 @@ html body .pd_card_info_tags_foto > a{
 }
 .pd_card_info_form_btns a:hover{
 	box-shadow: 3px 3px 10px #000;
-	background-color: #CCAA00#CCAA00FF;
+	background-color: #CCAA00FF;
 }
 .pd_card_info_form_btns a:first-child{
 	margin-bottom: 20px;
@@ -898,7 +898,7 @@ html body .pd_card_info_tags_foto > a{
 .pd_carousel.owl-carousel .owl-item{
 	filter: brightness(50%);
 }
-html body .pd_carousel.owl-item.center{
+html body .pd_carousel .owl-item.center{
 	filter: brightness(100%) !important;
 	width: 30px;
 }
@@ -906,7 +906,7 @@ html body .pd_carousel.owl-carousel .owl-item img{
 	height: 500px;
 	object-fit: cover;
 }
-.pd_carousel.owl-prev{
+.pd_carousel .owl-prev{
 	display: block;
 	position: absolute;
 	left: 20px;
@@ -919,7 +919,7 @@ html body .pd_carousel.owl-carousel .owl-item img{
 	transition: all .5s;
 	border: 2px solid #3a3a32;
 }
-.pd_carousel.owl-next{
+.pd_carousel .owl-next{
 	display: block;
 	position: absolute;
 	right: 20px;
@@ -935,7 +935,7 @@ html body .pd_carousel.owl-carousel .owl-item img{
 html body .pd_carousel.owl-carousel .owl-nav{
 	display: block !important;
 }
-.pd_carousel.owl-prev span{
+.pd_carousel .owl-prev span{
 	transition: all .5s;
 	position: absolute;
 	left: 50%;
@@ -947,7 +947,7 @@ html body .pd_carousel.owl-carousel .owl-nav{
 	border-left: 5px solid #fff;
 	transform: translateX(-38%) translateY(-50%) rotate(-45deg);
 }
-.pd_carousel.owl-next span{
+.pd_carousel .owl-next span{
 	transition: all .5s;
 	position: absolute;
 	left: 50%;
@@ -959,19 +959,19 @@ html body .pd_carousel.owl-carousel .owl-nav{
 	border-right: 5px solid #fff;
 	transform: translateX(-69%) translateY(-50%) rotate(45deg);
 }
-.owl-next:hover{
+.pd_carousel .owl-next:hover{
 	background-color: #fff;
 }
-.owl-next:hover span{
+.pd_carousel .owl-next:hover span{
 	border-color: #fcd903;
 }
-.owl-prev:hover{
+.pd_carousel .owl-prev:hover{
 	background-color: #fff;
 }
-.owl-prev:hover span{
+.pd_carousel .owl-prev:hover span{
 	border-color: #3a3a32;
 }
-.owl-carousel .owl-dots{
+.pd_carousel.owl-carousel .owl-dots{
 	position: absolute;
 	left: 50%;
 	bottom: -70px;
@@ -987,10 +987,10 @@ html body .pd_carousel.owl-carousel .owl-nav{
 	background-color: #dbdbdb;
 	border-radius: 50%;
 }
-.owl-carousel .owl-dot.active span{
+.pd_carousel.owl-carousel .owl-dot.active span{
 	background-color: #fcd903;
 }
-.owl-dot{
+.pd_carousel .owl-dot{
 	display: inline-block;
 	padding-right: 10px;
 	float: left;
