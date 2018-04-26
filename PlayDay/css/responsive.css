@@ -884,8 +884,8 @@
 		}
 		.filter_left_menu ul li{
 			margin-bottom: 7px;
-			padding-left: 7px;
-			padding-right: 7px;
+			padding-left: 5px;
+			padding-right: 5px;
 			margin-left: 0;
 			width: 100%;
 		}
@@ -926,5 +926,11 @@
 		}
 		.foto_maker_img img{
 			height: 180px;
+		}
+		.filter_left_menu ul li a{
+			font-size: 22px;
+		}
+		.footer_menu_wrap ul li a{
+			font-size: 26px;
 		}
 }
