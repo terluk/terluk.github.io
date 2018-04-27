@@ -254,6 +254,13 @@
 	.header_menu{
 		width: 62%;
 	}
+	.ava_rating_stars i{
+		padding-right: 0;
+		font-size: 26px;
+	}
+	.ava_rating_btn, .ava_rating_stars{
+		width: 50%;
+	}
 }
 @media screen and (max-width: 1355px){
 	.pd_card_info_form_btns a{
