@@ -6,6 +6,9 @@
 	.header-cloud-bottom-bg, .kind-serv-cloud, .kind-serv-bottom-cloud, .footer-cloud{
 		height: 426px;
 	}
+	.feedback-wrapper{
+		margin-top: 0;
+	}
 }
 @media screen and (max-width: 1199px){
 	.header-menu ul li{
@@ -25,8 +28,17 @@
 	.kind-serv-btn button img{
 		left: 38px;
 	}
+	.price-team-item-text p{
+		min-height: 280px;
+	}
 }
 @media screen and (max-width: 991px){
+	.mobile_menu_up .mobile-menu{
+		top: 15px; 
+	}
+	.mobile_menu_up .header-menu ul{
+		top: 55px;
+	}
 	.top-line-title{
 		width: 35%;
 	}
@@ -58,7 +70,7 @@
 		position: fixed;
 	    z-index: 20;
 	    left: -320px;
-	    top: 180px;
+	    top: 170px;
 	    display: block;
 	    width: 320px;
 	    margin: 0;
@@ -78,6 +90,7 @@
 	    color: #af1a02;
 	    font-size: 20px;
 	    transition: all .5s;
+	    line-height: 30px;
 	}
 	.header-menu ul li a:hover{
 		opacity: .5;
@@ -136,19 +149,14 @@
 	    transform: rotate(-135deg) translateY(-50%);
 	    top: 9px;
 	}
-	.openedMob-menu .header-menu ul{
+	html body .openedMob-menu .header-menu ul{
 		left: 0;
 	}
-	.mobile_menu_up .mobile-menu{
-        top: 25px; 
-    }
-    .mobile_menu_up .header-menu ul{
-        top: 70px;
-    } 
+	
 	.form-header input, .form-header textarea{
 	    box-shadow: 3px 3px 3px #aeaeae;
 	    position: relative;
-	    z-index: 10;
+	    z-index: 9;
 	}
 	.kind-serv-girl{
 		left: -160px;
@@ -171,21 +179,65 @@
 		width: 45%;
 		margin-top: 15px;
 	}
+	.news-item > img{
+		width: 100%;
+	}
 	.header-woman img{
 		margin-top: 30px;
+	}
+	.feedback-large-btn button{
+		padding-right: 30px;
+		padding-left: 150px;
+		height: 110px;
+		font-size: 20px;
+	}
+	html body .feedback-large-btn button img{
+		bottom: 6px;
+		left: 47px;
+	}
+	.news-form-title{
+		width: 100%;
+		padding-bottom: 20px;
+		float: none;
+	}
+	.news-form-field{
+		width: 100%;
+		float: none;
+	}
+	div.news-item-wrap > div.news-news-item:nth-child(2n){
+		margin-right: 0;
+	} 
+	.news-item{
+		width: 47%;
+		margin-right: 6%;
+	}
+	.price-team-item{
+		float: none;
+		margin-right: 0;
+		width: 100%;
+	}
+	.price-team-item-text p{
+		min-height: auto;
+		padding-bottom: 20px;
+	}
+	.price-table-wrap{
+		overflow-x: scroll;
 	}
 }
 @media screen and (max-width: 768px){
 	.header-logo{
 		width: 100%;
 		text-align: center;
+		height: auto;
+		line-height: 1;
+		padding-top: 20px;
 	}
 	.footer-title,.form-header, .top-header-block-wrap, .top-line-title, .top-line-phone, .header-woman, .header-form{
 		width: 100%;
 		text-align: center;
 	}
 	.mobile-menu{
-		top: 60px;
+		top: 15px;
 	}
 	.header-title h1 span{
 		font-size: 18px;
@@ -306,5 +358,103 @@
 	}
 	.mobile-menu{
 		left: 31px;
+	}
+	.about-info-red-list{
+		margin-bottom: 30px;
+	}
+	.about-info-red-list ul{
+		margin-left: 10px;
+	}
+	.feedback-large-btn button{
+		font-size: 16px;
+		padding: 0 30px;
+		height: 75px;
+	}
+	.feedback-large-btn button img{
+		display: none;
+	}
+	.pagin-square-left{
+		margin-right: 0;
+	}
+	.pagin-square-right{
+		margin-left: 0;
+	}
+	.pagination-list li a{
+		font-size: 10px;
+	}
+	.pagination-list li{
+		margin-right: 7px;
+	}
+	.feedback-item-foto{
+		display: none;
+	}
+	.feedback-item{
+		padding-left: 20px;
+		margin-bottom: 30px;
+	}
+	.cont-top-header-wrap{
+		padding-bottom: 170px;
+	}
+	.top-header-block-wrap{
+		position: relative;
+		z-index: 10;
+	}
+	.feedback-wrapper{
+		margin-top: -80px;
+	}
+	html body .price-news-form-field form input, .price-team-item{
+		width: 100%;
+		margin-right: 0;
+	}
+	.news-form-btn{
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.price-team-item{
+		margin-bottom: 50px;
+	}
+	.price-page-wrapper{
+		margin-top: -110px;
+	}
+	.news-form-field form input{
+		width: 100%;
+		font-size: 14px;
+	}
+	.question_title{
+		font-size: 14px;
+	}
+	.contacts-wrap-custom{
+		margin-top: -100px;
+	}
+	.price-team-item-text p{
+		min-height: 0;
+		padding-bottom: 20px;
+	}
+	.price-team-item-wrap{
+		margin-bottom: 0;
+	}
+	.price-table{
+		overflow-x: scroll;
+	}
+	.news-content-margin{
+		margin-top: -100px;
+	}
+	.header-menu ul{
+		top: 55px;
+	}
+	.full-news-pic, {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin: 20px 0;
+	}
+	.full-news-second-text{
+		padding-right: 0;
+		width: 100%;
+		float: none;
+	}
+	.full-news-second-pic{
+		display: none;
 	}
 }

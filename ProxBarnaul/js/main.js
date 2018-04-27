@@ -1,6 +1,9 @@
 $(document).ready(function(){
 	$('.mobile-menu').click(function(){ 
-		$('.header-wrapper').toggleClass('openedMob-menu'); 
+		$('.top-header-wrap').toggleClass('openedMob-menu'); 
+	});
+	$('.question_title').click(function(){
+		$(this).parent().toggleClass('open_question');
 	});
 	$(window).on("scroll", function() {
 	    if ($(window).scrollTop() > 100){
