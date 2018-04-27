@@ -191,6 +191,9 @@
 	}
 }
 @media screen and (max-width: 1370px){
+	html body .header_catalog{
+		font-size: 18px !important;
+	}
 	.header_menu ul li a{
 		font-size: 14px;
 	}
@@ -238,6 +241,18 @@
 	}
 	.ava_rating_btn span{
 		line-height: 26px;
+	}
+	.add_company_btn{
+	    padding: 4px 85px 4px 10px;
+	}
+	.add_company_wrap{
+		width: 19%;
+	}
+	.add_company_wrap{
+		margin-left: 10px;
+	}
+	.header_menu{
+		width: 62%;
 	}
 }
 @media screen and (max-width: 1355px){
