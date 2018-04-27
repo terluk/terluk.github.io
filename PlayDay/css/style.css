@@ -616,10 +616,10 @@ footer{
 .foreign_weddings{
 	min-height: 350px;
 }
-.foreign_weddings,.farm{
-	width: 57.6%;
+.foreign_weddings,.farm, .feast_for_children, .decoration{
+	width: 28.6%;
 }
-.keytering, .rings, .foreign_weddings{
+.keytering, .rings, .foreign_weddings, .feast_for_children, .decoration{
 	min-height: 400px;
 }
 .video_makers{
@@ -645,7 +645,7 @@ html body .header_catalog{
 	font-weight: bold;
 }
 .firework span{
-	top: 85%;
+	top: 65%;
 }
 .bread_crumbs_wrap{
 	margin-top: 50px;
@@ -1282,6 +1282,16 @@ html body .filter_feedback_carousel_item_text_title{
 .foto_maker_img{
 	border-top-left-radius: 70px;
 	overflow: hidden;
+	position: relative;
+}
+.foto_maker_img span{
+	color: #fff;
+	font-size: 26px;
+	position: absolute;
+	top: 20%;
+	left: 10px;
+	width: 35%;
+	text-align: center;
 }
 .foto_maker_img img{
 	height: 420px;
