@@ -9,4 +9,11 @@ $(document).ready(function(){
 	    	$('body').removeClass('mobile_menu_up');
 	    }
 	});
+	$('.pd_basket').click(function(){ 
+		$('.quest_pop_up').toggleClass('quest_pop_up_visible'); 
+		$('.shadow').toggleClass('quest_pop_up_visible'); 
+	});
+	$('.removePopup, .shadow').click(function(){
+		$('.quest_pop_up_visible').removeClass('quest_pop_up_visible');
+	});
 });
