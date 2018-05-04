@@ -16,4 +16,9 @@ $(document).ready(function(){
 	$('.removePopup, .shadow').click(function(){
 		$('.quest_pop_up_visible').removeClass('quest_pop_up_visible');
 	});
+	/*$('.grid').isotope({
+	  // options
+	  itemSelector: '.grid-item',
+	  layoutMode: 'fitRows'
+	});*/
 });
