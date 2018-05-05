@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
@@ -8,9 +8,11 @@
     <meta name="author" content="">
     <link rel="icon" href="/favicon.ico">
 
-    <title>News</title>
+    <title>News Full</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="http://allfont.ru/allfont.css?fonts=arial-narrow" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -21,7 +23,6 @@
     <![endif]-->
     <script src="https://use.fontawesome.com/28b503eab4.js"></script>
   </head>
-
   <body>
     <header>
         <div class="wrapper">
@@ -34,7 +35,7 @@
                         <li><a href="index.html">Главная</a></li>
                         <li><a class="header_catalog" href="catalog.html">Каталог</a></li>
                         <li><a href="discount.html">Акции/Скидки</a></li>
-                        <li><a href="#">Наши магазины</a></li>
+                        <li><a href="filter.html">Наши магазины</a></li>
                         <li><a href="#">Новости/мероприятия</a></li>
                         <li><a href="#">Контакты</a></li>
                     </ul>
@@ -77,95 +78,58 @@
     </header>
     <main class="site-content">
         <div class="wrapper">
-            <div class="pd_main_page_img_wrap">
-                <img src="img/header_img.jpg" alt="">
-            </div>
-        </div>
-        <div class="wrapper">
             <div class="pd_container">
                 <div class="bread_crumbs_wrap">
                     <a href="#">Playday.by</a>
                     <i class="fa fa-caret-right"></i>
-                    <span>Новости</span>
+                    <a href="#">Новости</a>
+                    <i class="fa fa-caret-right"></i>
+                    <span>Новость дня</span>
                 </div>
             </div>
         </div>
         <div class="wrapper">
             <div class="pd_container">
-                <div class="news_page_wrap clearfix">
-                    <div class="news_left_wrap">
-                        <div class="news_item_left">
-                            <div class="news_item_left_img">
-                                <img src="img/news_item_left_keytering.jpg" alt="">
+                <div class="full_news_wrap">
+                    <div class="full_news_title">
+                        <h2 class="">Новость дня от PlayDay</h2>
+                    </div>
+                    <div class="full_news_info">
+                        <p>Там с 23.00 31 декабря до 4.00 1 января пройдет программа «С Новым годом, столица!», фейерверк начнется в 1.30 и продлится 15 минут. Всего будут работать 22 открытые праздничные площадки. концертах примут участие творческие коллективы, популярные белорусские эстрадные исполнители. В их репертуаре — новогодние и рождественские песни. Ярмарочные ряды «Каляднага кірмаша» в районе Дворца спорта 1 января завершат работу в 4.00.</p>
+                    </div>
+                    <div class="grid_wrap">
+                        <div class="grid clearfix">
+                            <div class="grid-item grid_item_33">
+                                <img src="img/grid-1.jpg" alt="">
                             </div>
-                            <div class="news_item_left_text">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat rerum recusandae, id beatae earum veritatis! Officia maxime necessitatibus, dolorem amet laboriosam, minus harum eius, laudantium sit nostrum nesciunt sint, excepturi.</span>
+                            <div class="grid-item grid_item_33">
+                                <img src="img/grid-2.jpg" alt="">
                             </div>
-                            <div class="news_item_left_btn">
-                                <a href="#">
-                                    <span>Читать далее</span>
-                                    <i class="fa fa-caret-right"></i>
-                                </a>
+                            <div class="grid-item grid_item_33">
+                                <img src="img/grid-3.jpg" alt="">
                             </div>
-                        </div>
-                        <div class="news_item_left clearfix">
-                            <div class="news_item_left_img news_item_left_img_small">
-                                <img src="img/news_item_small.jpg" alt="">
+                            <div class="grid-item grid_item_width_40 grid_item_height_580">
+                                <img src="img/grid-4.jpg" alt="">
                             </div>
-                            <div class="news_item_left_text news_item_left_text_small">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat rerum recusandae, id beatae earum veritatis!</span>
+                            <div class="grid-item grid_item_width_19 grid_item_height_220">
+                                <img src="img/grid-5.jpg" alt="">
                             </div>
-                            <div class="news_item_left_btn">
-                                <a href="#">
-                                    <span>Читать далее</span>
-                                    <i class="fa fa-caret-right"></i>
-                                </a>
+                            <div class="grid-item grid_item_width_19 grid_item_height_220">
+                                <img src="img/grid-1.jpg" alt="">
                             </div>
-                        </div>
-                        <div class="news_item_left">
-                            <div class="news_item_left_img">
-                                <img src="img/news_item_left_keytering.jpg" alt="">
+                            <div class="grid-item grid_item_width_19 grid_item_height_220">
+                                <img src="img/grid-2.jpg" alt="">
                             </div>
-                            <div class="news_item_left_text">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat rerum recusandae, id beatae earum veritatis! Officia maxime necessitatibus, dolorem amet laboriosam, minus harum eius, laudantium sit nostrum nesciunt sint, excepturi.</span>
+                            <div class="grid-item grid_item_width_29 grid_item_height_272">
+                                <img src="img/grid-3.jpg" alt="">
                             </div>
-                            <div class="news_item_left_btn">
-                                <a href="#">
-                                    <span>Читать далее</span>
-                                    <i class="fa fa-caret-right"></i>
-                                </a>
+                            <div class="grid-item grid_item_width_29 grid_item_height_272">
+                                <img src="img/grid-4.jpg" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="news_right_wrap">
-                        <div class="news_item_left">
-                            <div class="news_item_left_img">
-                                <img src="img/news_item_photomaker.jpg" alt="">
-                            </div>
-                            <div class="news_item_left_text">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat rerum recusandae, id beatae earum veritatis! Officia maxime necessitatibus, dolorem amet laboriosam, minus harum eius, laudantium sit nostrum nesciunt sint, excepturi.</span>
-                            </div>
-                            <div class="news_item_left_btn">
-                                <a href="#">
-                                    <span>Читать далее</span>
-                                    <i class="fa fa-caret-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="news_item_left">
-                            <div class="news_item_left_img">
-                                <img src="img/news_item_photomaker.jpg" alt="">
-                            </div>
-                            <div class="news_item_left_text">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat rerum recusandae, id beatae earum veritatis! Officia maxime necessitatibus, dolorem amet laboriosam, minus harum eius, laudantium sit nostrum nesciunt sint, excepturi.</span>
-                            </div>
-                            <div class="news_item_left_btn">
-                                <a href="#">
-                                    <span>Читать далее</span>
-                                    <i class="fa fa-caret-right"></i>
-                                </a>
-                            </div>
-                        </div>
+                    <div class="full_news_info">
+                        <p>Там с 23.00 31 декабря до 4.00 1 января пройдет программа «С Новым годом, столица!», фейерверк начнется в 1.30 и продлится 15 минут. Всего будут работать 22 открытые праздничные площадки. концертах примут участие творческие коллективы, популярные белорусские эстрадные исполнители. В их репертуаре — новогодние и рождественские песни. Ярмарочные ряды «Каляднага кірмаша» в районе Дворца спорта 1 января завершат работу в 4.00.</p>
                     </div>
                 </div>
             </div>
@@ -206,12 +170,7 @@
     </footer>
 
 
-    <div class="shadow"></div>
-    <div class="quest_pop_up">
-        <span class="removePopup"></span>
-        <h2>Test popup</h2>
-        <p>Test popupTest popupTest popupTest popupTest popupTest popupTest popupTest popupTest popup</p>
-    </div>
+
     
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -220,6 +179,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="js/main.js"></script>
   </body>
-</html>
+  </html>
