@@ -400,6 +400,20 @@
 		padding: 0;
 		margin-bottom: 20px;
 	}
+	.input_title{
+		width: 77%;
+	}
+	.input_social{
+		width: 80%;
+		margin-bottom: 15px;
+	}
+	.add_company_button{
+		margin-bottom: 30px;
+	}
+	.input_row{
+		padding-top: 0;
+		margin-bottom: 15px;
+	}
 }
 @media screen and (max-width: 1080px){
 	.news_left_wrap, .news_right_wrap{
@@ -490,6 +504,59 @@
 	}
 	.ava_rating_stars{
 		width: 50%;
+	}
+	.input_row_text, .input_row_field{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.input_row_field{
+		height: 40px;
+		line-height: 40px;
+	}
+	.input_row_text{
+		padding-right: 0;
+	}
+	.input_text_span_middle{
+		margin-top: 0;
+	}
+	.pd_card_info_title h2{
+		font-size: 30px;
+	}
+	.select_category{
+		font-size: 18px;
+		width: 100%;
+	}
+	.input_social{
+		width: 50%;
+	}
+	html body .social_icon_wrap{
+		width: 40px;
+		height: 40px;
+		margin-right: 0;
+	}
+	.select_category{
+		vertical-align: baseline;
+	}
+	.add_company_title{
+		margin-bottom: 50px;
+	}
+	.width30perc{
+		width: 30%;
+	}
+	.load_photo_wrap, .load_photo_text{
+		width: 100%;
+		float: none;
+	}
+	.form_wrap{
+		margin-bottom: 0;
+	}
+	.add_company_button button{
+		font-size: 26px;
+		padding: 10px;
+	}
+	.add_company_button{
+		width: 100%;
 	}
 }
 @media screen and (max-width: 991px){
@@ -800,8 +867,15 @@
 		.grid_wrap{
 			margin-bottom: 20px;
 		}
+		.width30perc{
+			width: 70%;
+		}
 }
 @media screen and (max-width: 710px){
+	.load_photo_text{
+		padding: 10px;
+		text-align: center;
+	}
 	.register_wrap{
 		width: 38%;
 		text-align: center;
@@ -826,6 +900,9 @@
 	}
 	.ava_rating_stars{
 		width: 50%;
+	}
+	.width30perc{
+		width: 70%;
 	}
 }
 @media screen and (max-width: 620px){
@@ -908,7 +985,16 @@
 		top: 35%;
 		font-size: 20px;
 	}
-}
+	.input_row_text{
+		line-height: 1.5;
+		height: auto;
+	}
+	.input_social{
+		width: 75%;
+	}
+	.form_wrap{
+		padding: 10px;
+	}
 @media screen and (max-width: 530px){
 		.filter_left_menu ul li{
 			height: auto;

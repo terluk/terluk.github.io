@@ -8,10 +8,11 @@
     <meta name="author" content="">
     <link rel="icon" href="/favicon.ico">
 
-    <title>Card</title>
+    <title>Add company</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="dist/dropzone.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="http://allfont.ru/allfont.css?fonts=arial-narrow" rel="stylesheet" type="text/css">
@@ -82,108 +83,129 @@
                 <div class="bread_crumbs_wrap">
                     <a href="#">Playday.by</a>
                     <i class="fa fa-caret-right"></i>
-                    <a href="#">Фотографы</a>
-                    <i class="fa fa-caret-right"></i>
-                    <span>Александр Кукушкин</span>
-                </div>
-                <div class="pd_card_wrapp clearfix">
-                    <div class="pd_card_ava_wrap">
-                        <div class="pd_ava">
-                            <img class="pd_ava_img" src="img/card_ava.jpg" alt="">
-                            <img class="card_ava_logo" src="img/card_ava_logo.jpg" alt="">
-                        </div>
-                        <div class="pd_ava_rating clearfix">
-                            <div class="ava_rating_stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <div class="ava_rating_btn">
-                                <a href="#">Отзывы</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pd_card_info">
-                        <div class="pd_card_info_title">
-                            <h2>Александр Кукушкин</h2>
-                        </div>
-                        <div class="pd_card_info_discription">
-                            <p>Если вы цените в фотографии искренность, непосредственность и чистоту, то Александр Кукушкин именно тот фотограф, который вам нужен! Трогательные, яркие и стильные фотографии запечатлят самые важные моменты вашей жизни, и будут напоминать о них долгие годы. <br>"Лучший фотохудожник года-2003" <br>"Лучший рекламный фотограф года-2005"</p>
-                        </div>
-                        <div class="pd_card_info_tags_wrap">
-                            <div class="pd_card_info_tags_foto">
-                                <i class="fa fa-camera"></i>
-                                <span>Фото:</span>
-                                <a href="#" class="pd_counter">29</a>
-                            </div>
-                            <a href="#">Детская фотосъемка</a>
-                            <a href="#">Портретная фотосъемка</a>
-                            <a href="#">Свадебная фотосъемка</a>
-                        </div>
-                        <div class="pd_card_info_form clearfix">
-                            <div class="pd_card_info_form_location">
-                                <i class="fa fa-map-marker"></i>
-                                <span>Витебск</span>
-                            </div>
-                            <div class="pd_card_info_form_right clearfix">
-                                <div class="pd_card_info_form_question">
-                                    <div class="pd_card_info_form_question_title">
-                                        <h4>Хотите узнать:</h4>
-                                    </div>
-                                    <div class="pd_card_info_form_question_item">
-                                        <i class="fa fa-check"></i>
-                                        <span>Стоимость</span>
-                                    </div>
-                                    <div class="pd_card_info_form_question_item">
-                                        <i class="fa fa-check"></i>
-                                        <span>Контакты</span>
-                                    </div>
-                                    <div class="pd_card_info_form_question_item">
-                                        <i class="fa fa-check"></i>
-                                        <span>Занятость на вашу дату</span>
-                                    </div>
-                                    <div class="pd_card_info_form_question_item">
-                                        <i class="fa fa-check"></i>
-                                        <span>Получить скидку?</span>
-                                    </div>
-                                </div>
-                                <div class="pd_card_info_form_btns">
-                                    <a href="#">Подать заявку</a>
-                                    <a href="#">
-                                        <img class="basket_shop" src="img/basket.png" alt="">
-                                        <span>Добавить в райдер</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <span>Добавить компанию</span>
                 </div>
             </div>
         </div>
         <div class="wrapper">
             <div class="pd_container">
-                <div class="pd_slider_wrap">
-                    <div class="pd_slider_title">
-                        <h2>Фото</h2>
-                    </div>
-                    <div class="carousel_card_wrapper">
-                        <div class="pd_carousel owl-carousel owl-loaded">
-                            <div class="pd_carousel_item">
-                                <img src="img/slider_1.jpg" alt="">
+                <div class="pd_card_info_title add_company_title">
+                    <h2>Добавь свою компанию на PlayDay</h2>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+                <div class="pd_container">
+                    <div class="form_wrap">
+                        <form action="#">
+                            <div class="input_row clearfix">
+                                <div class="input_row_text">
+                                    <span>Категория:</span>
+                                </div>
+                                <div class="input_row_field">
+                                    <select class="select_category" name="category" id="category">
+                                        <option value="empty"></option>
+                                        <option value="photograf">Фотограф</option>
+                                        <option value="">Ведущий</option>
+                                        <option value="fire">Фейерверк</option>
+                                        <option value="video_maker">Видеосъемка</option>
+                                        <option value="keyterings">Кейтеринг</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="pd_carousel_item">
-                                <img src="img/slider_2.jpg" alt="">
+                            <div class="input_row clearfix">
+                                <div class="input_row_text">
+                                    <span>Заголовок:</span>
+                                </div>
+                                <input type="text" class="select_category input_title">
                             </div>
-                            <div class="pd_carousel_item">
-                                <img src="img/slider_3.jpg" alt="">
+                            <div class="input_row clearfix">
+                                <div class="input_row_text">
+                                    <span>Местонахождение:</span>
+                                </div>
+                                <div class="input_row_field">
+                                    <select class="select_category" name="category" id="category">
+                                        <option value="empty"></option>
+                                        <option value="vitebsk">Витебск</option>
+                                        <option value="Minsk">Минск</option>
+                                        <option value="Polotsk">Полоцк</option>
+                                        <option value="Orsha">Орша</option>
+                                        <option value="Mogilev">Могилев</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input_row clearfix">
+                                <div class="input_row_text input_row_service">
+                                    <span class="input_text_span_middle">Подробно опишите <br/> товар или услугу:</span>
+                                </div>
+                                <div class="input_row_field input_row_service" style="height: 300px;">
+                                    <textarea class="text_area_service" name="more_about_service" id="more_about_service" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="input_row clearfix">
+                                <div class="input_row_text">
+                                    <span>Телефоны:</span>
+                                </div>
+                                <input type="text" class="select_category input_title">
+                            </div>
+                            <div class="input_row clearfix">
+                                <div class="input_row_text">
+                                    <span>Адрес:</span>
+                                </div>
+                                <input type="text" class="select_category input_title">
+                            </div>
+                            <div class="input_row clearfix">
+                                <div class="input_row_text">
+                                    <span>e-mail:</span>
+                                </div>
+                                <input type="text" class="select_category input_title">
+                            </div>
+                            <div class="input_row clearfix">
+                                <div class="input_row_text">
+                                    <span>Социальные сети:</span>
+                                </div>
+                                <input type="text" class="select_category input_social">
+                                <div class="social_icon_wrap">
+                                    <img src="img/social_vk.png" alt="">
+                                </div>
+                                <input type="text" class="select_category input_social">
+                                <div class="social_icon_wrap">
+                                    <img src="img/social_inst.png" alt="">
+                                </div>
+                            </div>
+                            <div class="input_row clearfix">
+                                <div class="input_row_text input_row_price">
+                                    <span>Ориентировочная стоимость услуги или товара:</span>
+                                </div>
+                                <input type="text" class="select_category input_title width30perc">
+                                <span class="byn">Byn.</span>
+                            </div>
+                        </form>
+                        <div class="input_row clearfix">
+                            <div class="load_photo_wrap">
+                                <div class="load_photo_block">
+                                    <form action="/file-upload" class="dropzone" id="my-awesome-dropzone">
+                                        <img src="img/download_new_file.png" alt="">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="load_photo_text">
+                                <span>Фотографии работают гораздо лучше, чем самый талантливый текст. Загрузив всего несколько фотографий вы получите больше заказов на свой продукт.</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="wrapper">
+                    <div class="pd_container">
+                        <div class="add_company_button">
+                            <button type="submit" href="#">
+                                <i class="fa fa-check"></i>
+                                <span>Отправить заявку</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>    
     </main>
     <footer>
         <div class="footer_wrapper clearfix">
@@ -253,5 +275,6 @@
       });
     </script>
     <script src="js/main.js"></script>
+    <script src="js/dropzone.js"></script>
   </body>
   </html>

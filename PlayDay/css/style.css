@@ -1578,3 +1578,158 @@ html body .news_item_left_text_small{
 	float: left;
 	padding-left: 30px;
 }
+.add_company_title{
+	padding-left: 0;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.input_row_text{
+	width: 22%;
+	float: left;
+	text-align: right;
+	padding-right: 25px;
+	font-size: 28px;
+	color: #000;
+	height: 70px;
+	line-height: 70px;
+}
+.input_row_field{
+	width: 78%;
+	float: left;
+	height: 70px;
+	line-height: 70px;
+}
+.form_wrap{
+	margin-bottom: 100px;
+}
+.select_category{
+	font-size: 32px;
+    width: 30%;
+    padding: 10px;
+    vertical-align: middle;
+    border: 2px solid #d2d2d2;
+}
+.input_row{
+	margin-bottom: 30px;
+	padding-top: 20px;
+}
+.input_title{
+	width: 40%;
+}
+.input_phone{
+	width: 78%;
+}
+.text_area_service{
+    line-height: 1;
+    height: 100%;
+    padding: 20px;
+    font-size: 32px;
+    width: 100%;
+    border: 2px solid #d2d2d2;
+}
+.input_row_service{
+	height: auto;
+	line-height: 1.5;
+	vertical-align: middle;
+}
+.input_text_span_middle{
+	margin-top: 100px;
+	display: block;
+}
+html body .social_icon_wrap{
+	height: 60px;
+	width: 60px;
+	border-radius: 8px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 25px;
+}
+.social_icon_wrap img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.input_row_price{
+	width: 50%;
+}
+.byn{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 15px;
+	font-size: 40px;
+    vertical-align: middle;
+}
+.load_photo_wrap{
+	width: 60%;
+	float: left;
+}
+.load_photo_text{
+	width: 40%;
+	float: left;
+}
+.file_loading{
+	display: none;
+}
+.load_photo_text span{
+	font-size: 30px;
+	color: #000;
+	text-align: left;
+}
+.load_photo_text{
+	padding: 30px;
+}
+html body .dropzone{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 180px;
+    min-width: 300px;
+    border: 3px dashed #d9d9d9;
+    margin-top: 25px;
+    position: relative;
+    transition: all .5s;
+    margin-top: 30px;
+}
+html body .dropzone:hover{
+	background-color: #aeaeae;
+}
+html body .dropzone img{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: block;
+	width: 60px;
+	height: 60px;
+}
+.dropzone.dz-clickable .dz-message, .dropzone.dz-clickable .dz-message *{
+	position: absolute;
+    top: 19%;
+    left: 0;
+    right: 0;
+    font-size: 24px;
+}
+.add_company_button{
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.add_company_button button{
+    font-size: 36px;
+    background-color: #ffd234;
+    color: #fff;
+    font-family: 'Bebas_Neu_Bold';
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .5s;
+    padding: 30px 10px;
+    text-transform: none;
+}
+.add_company_button button > i{
+	padding-right: 10px;
+}
+.add_company_button button:hover{
+	color: #ff0000
+}
