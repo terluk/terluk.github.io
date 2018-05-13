@@ -576,6 +576,8 @@
 @media screen and (max-width: 991px){
 	.shops_search{
 		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	html body .news_item_left_img_small, html body .news_item_left_text_small{
 		width: 100%;
@@ -1105,7 +1107,7 @@
 		}
 		.bread_crumbs_wrap{
 		    margin-top: 20px;
-    		padding-bottom: 0px;
+    		margin-bottom: 20px;
 		}
 		.card_ava_logo{
 			width: 235px;
@@ -1203,6 +1205,9 @@
 		}
 		.filter_feedback_carousel_item_title h4{
 			font-size: 22px;
+		}
+		.shops_title h2{
+			text-align: center;
 		}
 		.filter_feedback_carousel_item_img{
 			width: 180px;

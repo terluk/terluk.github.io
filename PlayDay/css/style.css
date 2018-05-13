@@ -724,6 +724,8 @@ html body .header_catalog{
 }
 .pd_ava_img{
 	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
 .pd_card_wrapp{
 	padding-bottom: 20px;
@@ -1759,7 +1761,7 @@ html body .dropzone img{
 	border: 1px solid #d9d9d9;
 }
 .shops_map{
-	margin: 40px;
+	margin: 40px 0;
 }
 .adresses_left, .adresses_right{
 	width: 50%;
@@ -1788,4 +1790,86 @@ html body .dropzone img{
 	right: 10%;
 	height: 3px;
 	background-color: #c9c9c9;
+}
+.korzina_title h2{
+	font-size: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 70px;
+	font-family: 'Bebas_Neu_Bold';
+	color: #000;
+}
+.korzina_ava{
+	position: relative;
+	width: 13%;
+	float: left;
+	background: url(../img/card_ava.jpg) top center no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.korzina_item{
+	height: 250px;
+	border: 5px solid #ffd600;
+	padding: 5px;
+	margin-bottom: 60px;
+}
+.korzina_ava_logo{
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 30px;
+}
+.korzina_info{
+	width: 37%;
+	float: left;
+}
+html body .korzina_info_title{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+html body .korzina_info_title h2{
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	color: #333;
+	display: inline-block;
+	padding: 0 15px;
+}
+html body .korzina_info_title h2:before{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    height: 5px;
+    background-color: #fcd903;
+}
+.korzina_info_diskription{
+	font-size: 20px;
+	color: #333;
+	padding: 0 20px 15px 20px;
+}
+.korzina_foto{
+	width: 25%;
+	float: left;
+}
+.korzina_foto img{
+	display: inline-block;
+	width: 132px;
+	height: 132px;
+}
+.korzina_foto_1, .korzina_foto_2, .korzina_foto_3{
+	width: 33.33%;
+	float: left;
+	height: 132px;
+	line-height: 250px;
+}
+.korzina_foto_1 img, .korzina_foto_2 img, .korzina_foto_3 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
