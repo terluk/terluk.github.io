@@ -223,6 +223,7 @@ font-family: 'Arial Narrow', arial;
 	color: #3e76ad;
 	border-bottom: 3px dashed #00a8e7;
 	transition: all .5s;
+	text-decoration: none;
 }
 .search_region a:hover{
 	text-decoration: none;
@@ -1612,7 +1613,7 @@ html body .news_item_left_text_small{
     border: 2px solid #d2d2d2;
 }
 .input_row{
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	padding-top: 20px;
 }
 .input_title{
@@ -1806,9 +1807,9 @@ html body .dropzone img{
 	background: url(../img/card_ava.jpg) top center no-repeat;
 	background-size: cover;
 	height: 100%;
+	min-height: 230px;
 }
 .korzina_item{
-	height: 250px;
 	border: 5px solid #ffd600;
 	padding: 5px;
 	margin-bottom: 60px;
@@ -1853,9 +1854,11 @@ html body .korzina_info_title h2:before{
 	color: #333;
 	padding: 0 20px 15px 20px;
 }
-.korzina_foto{
+.korzina_foto, .korzina_btn_wrap{
 	width: 25%;
 	float: left;
+	position: relative;
+	min-height: 230px;
 }
 .korzina_foto img{
 	display: inline-block;
@@ -1866,10 +1869,36 @@ html body .korzina_info_title h2:before{
 	width: 33.33%;
 	float: left;
 	height: 132px;
-	line-height: 250px;
+}
+.korzina_foto_123{
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
 }
 .korzina_foto_1 img, .korzina_foto_2 img, .korzina_foto_3 img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+.korzina_btn_wrap a{
+	background-color: #fcd903;
+	color: #000;
+	display: block;
+	font-size: 60px;
+	transition: all .5s;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	right: 10px;
+	height: 132px;
+	line-height: 132px;
+	transform: translateY(-50%);
+}
+.korzina_btn_wrap a:hover{
+	color: #ff0000;
 }

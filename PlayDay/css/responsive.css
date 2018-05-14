@@ -76,6 +76,9 @@
 	    line-height: 68px;
 	    margin-left: 20px;
 	}
+	.korzina_btn_wrap a{
+		font-size: 45px;
+	}
 	.search_field{
 		width: 63%;
 	}
@@ -193,6 +196,13 @@
 @media screen and (max-width: 1370px){
 	.adresses_left, .adresses_right{
 		padding-left: 50px;
+	}
+	.korzina_title h2{
+		font-size: 50px;
+		margin-bottom: 40px;
+	}
+	.korzina_item{
+		margin-bottom: 30px;
 	}
 	html body .news_item_left_img_small{
 		padding-top: 10px;
@@ -344,6 +354,9 @@
 @media screen and (max-width: 1220px){
 	.adresses_left, .adresses_right{
 		padding-left: 20px;
+	}
+	.korzina_btn_wrap a{
+		font-size: 35px;
 	}
 	.firework{
 		min-height: 605px;
@@ -571,6 +584,29 @@
 	}
 	.add_company_button{
 		width: 100%;
+	}
+	.korzina_info, .korzina_foto, .korzina_btn_wrap{
+		width: 100%;
+		float: none;
+	}
+	.korzina_ava{
+		width: 20%;
+		float: none;
+		margin: 0 auto;
+	}
+	.korzina_info_diskription{
+		padding: 0 10px;
+		text-align: center;
+	}
+	.korzina_foto, .korzina_btn_wrap{
+		min-height: 132px;
+	}
+	.korzina_foto{
+		margin-bottom: 20px;
+	}
+	.korzina_btn_wrap a{
+		left: 0;
+		right: 0;
 	}
 }
 @media screen and (max-width: 991px){
@@ -935,6 +971,12 @@
 	.shops_adresses_wrap ul li{
 		padding: 10px 0;
 		font-size: 20px;
+	}
+	.korzina_ava{
+		width: 70%;
+	}
+	.korzina_item{
+		margin-bottom: 20px;
 	}
 	.weddins_acessories span{
 			left: 44%;
