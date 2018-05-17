@@ -1,6 +1,6 @@
 ﻿@media screen and (max-width: 1919px){
 	.header_menu ul li a{
-		font-size: 18px;
+		font-size: 24px;
 	}
 	.add_company_btn{
 		font-size: 26px;
@@ -45,6 +45,9 @@
 	}
 	.ava_rating_stars, .ava_rating_stars{
 		width: 50%;
+	}
+	.news_item_left_text span{
+		font-size: 26px;
 	}
 }
 @media screen and (max-width: 1500px){
@@ -133,7 +136,7 @@
 		margin-bottom: 70px;
 	}
 	.header_menu ul li a{
-		font-size: 14px;
+		font-size: 22px;
 	}
 	.header_menu{
 		width: 58%;
@@ -192,10 +195,28 @@
 	.footer_menu_wrap{
 		padding: 0 20px 0 20px;
 	}
+	.news_item_left_img, .news_item_left{
+		margin-bottom: 15px;
+	}
+	.news_item_left{
+		padding: 15px;
+	}
 }
 @media screen and (max-width: 1370px){
 	.adresses_left, .adresses_right{
 		padding-left: 50px;
+	}
+	.full_news_title{
+		margin-bottom: 70px;
+	}
+	.full_news_info p{
+		font-size: 28px;
+	}
+	.contacts_title_wrap{
+		margin-bottom: 40px;
+	}
+	.full_news_title h2{
+		font-size: 36px;
 	}
 	.korzina_title h2{
 		font-size: 50px;
@@ -208,10 +229,10 @@
 		padding-top: 10px;
 	}
 	html body .header_catalog{
-		font-size: 18px !important;
+		font-size: 30px !important;
 	}
 	.header_menu ul li a{
-		font-size: 14px;
+		font-size: 24px;
 	}
 	.header_menu{
 		width: 58%;
@@ -223,11 +244,11 @@
 		width: 22%;
 	}
 	.add_company_btn{
-		font-size: 20px;
+		font-size: 24px;
 	}
 	.add_company_btn > span{
 		font-size: 16px;
-		top: -65%;
+		top: -35%;
 	}
 	.search_region{
 		width: 25%;
@@ -259,7 +280,7 @@
 		line-height: 26px;
 	}
 	.add_company_btn{
-	    padding: 4px 85px 4px 10px;
+	    padding: 10px 85px 10px 10px;
 	}
 	.add_company_wrap{
 		width: 19%;
@@ -276,6 +297,44 @@
 	}
 	.ava_rating_btn, .ava_rating_stars{
 		width: 50%;
+	}
+	.input_title{
+		width: 40%;
+	}
+	.news_item_left_text span{
+		font-size: 22px;
+	}
+	.news_item_left_img img{
+		max-height: 445px;
+	}
+	.news_item_left_btn a{
+		font-size: 28px;
+	}
+	.filter_feedback_btn a{
+		width: 70%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.contact_feedback_subtitle{
+		font-size: 20px;
+	}
+	.phones_wrap{
+		margin: 20px 30px 30px 0;
+	}
+	.social_contacts_wrap{
+		padding-left: 20px;
+	}
+	.phone_item_text{
+		font-size: 20px;
+	}
+	.phone_item_number{
+		font-size: 20px;
+	}
+	.filter_feedback_title_feedback_block{
+		font-size: 22px;
+	}
+	.filter_feedback_btn a{
+		margin: 20px auto;
 	}
 }
 @media screen and (max-width: 1355px){
@@ -349,6 +408,11 @@
 	}
 	footer{
 		padding-left: 20px;
+	}
+	.contacts_left, .contacts_right{
+		width: 100%;
+		float: none;
+		padding-left: 0;
 	}
 }
 @media screen and (max-width: 1220px){
@@ -432,6 +496,17 @@
 	.input_row{
 		padding-top: 0;
 		margin-bottom: 15px;
+	}
+	.news_left_wrap{
+		position: static;
+		width: 100%;
+	}
+	.news_right_wrap{
+		width: 100%;
+		margin-left: 0;
+	}
+	.news_item_left_img img, html body .left_img{
+		max-height: 380px;
 	}
 }
 @media screen and (max-width: 1080px){
@@ -925,6 +1000,40 @@
 		.width30perc{
 			width: 70%;
 		}
+		.news_item_left_img img, html body .left_img{
+			max-height: 250px;
+		}
+		.social_item{
+			width: 100%;
+			float: none;
+			text-align: center;
+		}
+		.phone_item{
+			padding: 0;
+		}
+		.contacts_title_wrap{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.phone_item{
+			width: 100%;
+			float: none;
+			margin-bottom: 15px;
+		}
+		.phones_wrap{
+			margin: 15px 0;
+		}
+		.social_link{
+			font-size: 24px;
+		}
+		.social_item{
+			padding-left: 0;
+			margin-bottom: 20px;
+		}
+		.social_icon svg{
+			width: 60px;
+			height: 60px;
+		}
 }
 @media screen and (max-width: 710px){
 	.adresses_left, .adresses_right{
@@ -965,6 +1074,9 @@
 	}
 	.width30perc{
 		width: 70%;
+	}
+	.social_contacts_wrap{
+		padding-left: 0;
 	}
 }
 @media screen and (max-width: 620px){
@@ -1067,6 +1179,7 @@
 	.form_wrap{
 		padding: 10px;
 	}
+}
 @media screen and (max-width: 530px){
 		.filter_left_menu ul li{
 			height: auto;
@@ -1316,5 +1429,25 @@
 		.weddins_acessories span{
 			left: 44%;
     		width: 77%;
+		}
+		.shops_map{
+			display: none;
+		}
+		.shops_title h2{
+			margin-bottom: 20px;
+		}
+		.social_icon svg{
+			width: 40px;
+			height: 40px;
+		}
+		.contacts_check svg{
+			height: 50px;
+			width: 50px;
+		}
+		.filter_feedback_btn a{
+			width: 90%;
+		}
+		.contacts_info_wrap{
+			margin-bottom: 20px;
 		}
 }
